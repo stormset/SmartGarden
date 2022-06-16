@@ -25,11 +25,12 @@ The configuration information is stored on the **ESP8266**. This currently only 
 Use the Android Studio *Build Variants* button to choose between **production** and **staging** flavors combined with debug and release build types
 
 ## Screenshots
-<img src="./App/screenshots/login_screen.png"  alt="Login Screen"  width="360"/>
-<img src="./App/screenshots/config_screen.png" alt="Config Screen" width="360"/>
-<br>
-<img src="./App/screenshots/main_controls.png" alt="Main Screen"   width="360"/>
-<img src="./App/screenshots/timer_screen.png" alt="Timer Screen"  width="360"/>
+<p float="left">
+<img src="./App/screenshots/login_screen.png"  alt="Login Screen"  width="240"/>
+<img src="./App/screenshots/config_screen.png" alt="Config Screen" width="240"/>
+<img src="./App/screenshots/main_controls.png" alt="Main Screen"   width="240"/>
+<img src="./App/screenshots/timer_screen.png" alt="Timer Screen"  width="240"/>
+ </p>
 
 ## Contributing
 
