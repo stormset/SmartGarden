@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name="com.breco.android.app.garden.launcher.MainActivity"
+            android:exported="true"
+            android:label="@string/activity_title_launcher"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.breco.android.app.garden.launcher.Configuration"
+            android:label="@string/activity_title_launcher"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.breco.android.app.garden.launcher.BaseActivity"
+            android:label="@string/activity_title_launcher"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.breco.android.app.garden.launcher.LoginActivity"
+            android:label="@string/activity_title_launcher"
+            android:screenOrientation="fullSensor"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+    </application>
+
+</manifest>

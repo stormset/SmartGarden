@@ -1,0 +1,30 @@
+static def loadSigningConfigFromPropertiesFile(project, signingConfig, propFileName) {
+    def props = new Properties()
+    def propFile = project.file(propFileName)
+
+    if (!propFile.exists()) {
+        return false
+    }
+
+    props.load(propFile.newDataInputStream())
+
+    if ((props.storeFile != null) &&
+        (props.storePassword != null) &&
+        (props.keyAlias != null) &&
+        (props.keyPassword != null)) {
+
+        signingConfig.storeFile = project.file(props.storeFile)
+        signingConfig.storePassword = props.storePassword
+        signingConfig.keyAlias = props.keyAlias
+        signingConfig.keyPassword = props.keyPassword
+
+        return true
+    } else {
+        return false
+    }
+}
+
+// Export methods by turning them into closures
+ext {
+    loadSigningConfigFromPropertiesFile = this.&loadSigningConfigFromPropertiesFile
+}

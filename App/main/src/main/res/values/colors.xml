@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#3F51B5</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorAccent">#3F51B5</color>
+    <color name="secondaryColor">#ffee99ff</color>
+    <color name="colorOverlayB">#98ffffff</color>
+    <color name="colorOverlayC">#38ffffff</color>
+    <color name="colorOverlayD">#52ffffff</color>
+    <array name="progressGradientColors">
+        <item>#4B53FF</item>
+        <item>#2196F3</item>
+    </array>
+    <color name="base_circle_text">#565656</color>
+    <color name="logo">#90613cf6</color>
+
+    <color name="default_bg">#EEEEEE</color>
+</resources>

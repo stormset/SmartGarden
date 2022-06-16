@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartGarden</string>
+    <string name="edittext_hint"><font size="18">eszköz</font></string>
+    <string name="timePickerOK">TOVÁBB</string>
+    <string name="timePickerCANCEL">MÉGSEM</string>
+    <string name="activity_title_launcher">SmartGarden</string>
+    <string-array name="planets_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/item_size"
+    android:layout_height="@dimen/item_size">
+
+    <com.pkmmte.view.CircularImageView
+        android:id="@+id/item_round"
+        android:layout_width="@dimen/item_size"
+        android:layout_height="@dimen/item_size"
+        android:layout_centerInParent="true"
+        android:background="@color/secondaryColor"></com.pkmmte.view.CircularImageView>
+
+    <TextView
+        android:id="@+id/signature"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/presse"
+        android:text="°C"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:id="@+id/tempHolder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/tempHolderText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/presse"
+            android:gravity="center"
+            android:text="28"
+            android:textColor="@android:color/white"
+            android:textSize="60sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/runTime"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/neon"
+        android:gravity="center|top"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/listImage"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:alpha="50"
+        android:backgroundTint="@android:color/white" />
+
+    <TextView
+        android:id="@+id/remainTime"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/neon"
+        android:gravity="center|bottom"
+        android:paddingBottom="5dp"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+</RelativeLayout>
